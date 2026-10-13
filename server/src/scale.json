@@ -1,0 +1,25 @@
+{
+  "maxScore": 60,
+  "scale": [
+    {
+      "label": "Non validé",
+      "min": 15,
+      "max": 29
+    },
+    {
+      "label": "Reporter",
+      "min": 30,
+      "max": 39
+    },
+    {
+      "label": "Validé",
+      "min": 40,
+      "max": 49
+    },
+    {
+      "label": "Validée ++",
+      "min": 50,
+      "max": 60
+    }
+  ]
+}

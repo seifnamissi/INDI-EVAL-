@@ -1,0 +1,123 @@
+.manage-scale-container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    color: #172033;
+}
+
+.scale-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 2rem;
+}
+
+.scale-navigation a {
+    color: #0f766e;
+    font-weight: 700;
+}
+
+.manage-scale-container h1 {
+    margin-bottom: 0.5rem;
+}
+
+.scale-intro {
+    max-width: 700px;
+    color: #475569;
+}
+
+.max-score-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin: 1.5rem 0;
+    padding: 1rem 1.25rem;
+    border-left: 5px solid #0f766e;
+    background: rgba(255, 255, 255, 0.72);
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+}
+
+.max-score-card strong {
+    color: #0f766e;
+    font-size: 1.25rem;
+}
+
+.scale-status {
+    margin-bottom: 1rem;
+    padding: 0.8rem 1rem;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.scale-status.success { background: #dcfce7; color: #166534; }
+.scale-status.error { background: #fee2e2; color: #991b1b; }
+
+.scale-table-wrapper { overflow-x: auto; }
+
+.scale-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.scale-table th,
+.scale-table td {
+    padding: 0.85rem;
+    border-bottom: 1px solid #dbe4ee;
+    text-align: left;
+}
+
+.scale-table th { background: #e2e8f0; }
+
+.scale-table input {
+    width: 100%;
+    min-width: 100px;
+    box-sizing: border-box;
+    padding: 0.65rem;
+    border: 1px solid #b8c4d3;
+    border-radius: 6px;
+    font: inherit;
+}
+
+.scale-index {
+    display: inline-grid;
+    place-items: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    color: white;
+    font-weight: 800;
+}
+
+.scale-index-0 { background: #dc3545; }
+.scale-index-1 { background: #f59e0b; }
+.scale-index-2 { background: #0f766e; }
+.scale-index-3 { background: #2563eb; }
+
+.scale-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.scale-actions button {
+    border: 0;
+    border-radius: 8px;
+    padding: 0.8rem 1rem;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.reset-scale-button { background: #64748b; }
+.save-scale-button { background: #0f766e; }
+.scale-actions button:disabled { opacity: 0.6; cursor: wait; }
+
+@media (max-width: 600px) {
+    .manage-scale-container { padding: 1rem; }
+    .max-score-card { align-items: flex-start; flex-direction: column; }
+    .scale-actions button { width: 100%; }
+}

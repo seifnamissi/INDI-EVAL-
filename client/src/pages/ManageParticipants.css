@@ -1,0 +1,283 @@
+.manage-participants-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: #333;
+}
+
+.manage-participants-container h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.evaluation-mode-panel {
+    margin-bottom: 2rem;
+    padding: 1.25rem;
+    border-left: 5px solid #0f766e;
+    background: rgba(255, 255, 255, 0.55);
+    border-radius: 10px;
+}
+
+.evaluation-mode-panel h3,
+.evaluation-mode-panel p {
+    margin-top: 0;
+}
+
+.evaluation-mode-actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.evaluation-mode-actions button {
+    padding: 0.7rem 1rem;
+    border: 0;
+    border-radius: 6px;
+    background: #64748b;
+    color: white;
+    cursor: pointer;
+}
+
+.evaluation-mode-actions button.mode-active {
+    background: #0f766e;
+    box-shadow: 0 0 0 2px rgba(15, 118, 110, 0.25);
+}
+
+.participant-list {
+    margin-bottom: 2rem;
+}
+
+.team-list {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.team-list h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.team-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+}
+
+.team-actions,
+.team-edit-actions {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.team-edit-row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.team-edit-row input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+}
+
+.team-edit-btn,
+.team-delete-btn,
+.team-save-btn,
+.team-cancel-btn {
+    padding: 0.5rem 0.9rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.team-edit-btn {
+    background-color: #17a2b8;
+}
+
+.team-edit-btn:hover {
+    background-color: #138496;
+}
+
+.team-delete-btn {
+    background-color: #dc3545;
+}
+
+.team-delete-btn:hover {
+    background-color: #c82333;
+}
+
+.team-save-btn {
+    background-color: #28a745;
+}
+
+.team-save-btn:hover {
+    background-color: #218838;
+}
+
+.team-cancel-btn {
+    background-color: #6c757d;
+}
+
+.team-cancel-btn:hover {
+    background-color: #5a6268;
+}
+
+.participant-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+    transition: background-color 0.3s;
+}
+
+.participant-item:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.participant-item span {
+    font-weight: 500;
+}
+
+.participant-item button, .add-participant-form button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #dc3545;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.participant-item button:hover {
+    background-color: #c82333;
+}
+
+.add-participant-form {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.add-team-form {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.add-team-form h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.add-team-form input,
+.add-team-form button {
+    width: 100%;
+}
+
+.add-team-form input {
+    padding: 12px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.add-team-form button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #17a2b8;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-team-form button:hover {
+    background-color: #138496;
+}
+
+.add-participant-form h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.add-participant-form input {
+    width: calc(100% - 24px);
+    padding: 12px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.add-participant-form select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.add-participant-form button {
+    background-color: #28a745;
+    width: 100%;
+}
+
+.add-participant-form button:hover {
+    background-color: #218838;
+}
+
+.add-participant-form .add-all-teams-btn {
+    margin-top: 0.65rem;
+    background-color: #0f766e;
+}
+
+.add-participant-form .add-all-teams-btn:hover {
+    background-color: #0b5f59;
+}
+
+.next-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4a90e2;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.next-btn:hover {
+    background-color: #357abd;
+}

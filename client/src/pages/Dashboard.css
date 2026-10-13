@@ -1,0 +1,211 @@
+.dashboard-container {
+    padding: 20px;
+}
+
+.admin-dashboard-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 12px 16px;
+    border-radius: 14px;
+    background: rgba(15, 23, 42, 0.7);
+    box-shadow: 0 8px 20px rgba(15, 23, 42, 0.12);
+}
+
+.admin-dashboard-nav a {
+    text-decoration: none;
+    color: #e2e8f0;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 999px;
+    padding: 8px 14px;
+    font-weight: 600;
+    transition: all 0.15s ease;
+}
+
+.admin-dashboard-nav a:hover,
+.admin-dashboard-nav a.active {
+    background: linear-gradient(135deg, #0f766e, #2563eb);
+    color: white;
+}
+
+.dashboard-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 18px;
+}
+
+.dashboard-header h1 {
+    margin: 0;
+}
+
+.export-excel-button {
+    border: none;
+    border-radius: 999px;
+    padding: 12px 18px;
+    background: linear-gradient(135deg, #0f766e, #2563eb);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 10px 24px rgba(15, 118, 110, 0.24);
+    transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+}
+
+.export-excel-button:hover:not(:disabled) {
+    transform: translateY(-1px);
+    box-shadow: 0 12px 28px rgba(15, 118, 110, 0.3);
+}
+
+.export-excel-button:disabled {
+    opacity: 0.7;
+    cursor: wait;
+}
+
+.best-participant-card {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.questions-summary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 14px;
+}
+
+.question-summary-card {
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(148, 163, 184, 0.28);
+    border-radius: 14px;
+    padding: 14px 16px;
+    box-shadow: 0 8px 20px rgba(15, 23, 42, 0.05);
+}
+
+.question-summary-card h3 {
+    margin: 0 0 10px;
+    font-size: 1rem;
+    color: #0f172a;
+}
+
+.question-summary-card ul {
+    margin: 0;
+    padding-left: 1.1rem;
+    color: #334155;
+    display: grid;
+    gap: 6px;
+}
+
+.question-summary-card li {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.results-section {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.access-section {
+    background: linear-gradient(135deg, rgba(18, 33, 59, 0.08), rgba(74, 144, 226, 0.1));
+}
+
+.jury-access-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 14px;
+}
+
+.jury-access-card {
+    background: rgba(255, 255, 255, 0.72);
+    border-radius: 16px;
+    padding: 16px;
+    border: 1px solid rgba(18, 33, 59, 0.08);
+    box-shadow: 0 8px 24px rgba(18, 33, 59, 0.08);
+}
+
+.jury-access-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.jury-access-header h3 {
+    margin: 0;
+}
+
+.jury-access-code {
+    background: #12213b;
+    color: white;
+    border-radius: 999px;
+    padding: 0.4rem 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+}
+
+.jury-participant-list {
+    margin: 0.75rem 0 0;
+    padding-left: 1.1rem;
+    color: #334155;
+}
+
+.jury-participant-list li {
+    margin-bottom: 0.25rem;
+}
+
+.dashboard-filters {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
+    margin: 16px 0 20px;
+}
+
+.dashboard-filters label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-weight: 600;
+}
+
+.dashboard-filters select {
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    border-radius: 10px;
+    padding: 10px 12px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #1f2937;
+}
+
+.results-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.results-table th, .results-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.results-table th {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.results-table tr:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.green { color: #28a745; }
+.orange { color: #fd7e14; }
+.red { color: #dc3545; }

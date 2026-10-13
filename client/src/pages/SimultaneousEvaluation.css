@@ -1,0 +1,91 @@
+.simultaneous-evaluation-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: #333;
+}
+
+.simultaneous-evaluation-container h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.restored-session-banner {
+    background: linear-gradient(135deg, #e8fff1 0%, #d1f7df 100%);
+    border: 1px solid #8dd3a9;
+    color: #1d5b3f;
+    border-radius: 10px;
+    padding: 0.9rem 1rem;
+    margin-bottom: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    box-shadow: 0 6px 20px rgba(58, 143, 94, 0.15);
+}
+
+.evaluation-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+.participants-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.participant-card {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.participant-card h3 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    color: #333;
+    border-bottom: 2px solid #4a90e2;
+    padding-bottom: 0.5rem;
+}
+
+.criterion-block {
+    margin-bottom: 1.5rem;
+}
+
+.criterion-block h4 {
+    margin-bottom: 0.5rem;
+}
+
+.criterion-descriptions {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+    .criterion-comment {
+        width: 100%;
+        min-height: 48px;
+        margin-top: 8px;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        resize: vertical;
+        font-size: 0.95rem;
+    }
+
+.criterion-descriptions li {
+    margin-bottom: 5px;
+}
+
+

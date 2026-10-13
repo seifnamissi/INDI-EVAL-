@@ -1,0 +1,23 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Client and Server",
+			"type": "shell",
+			"command": "npm start",
+			"group": "build"
+		},
+		{
+			"label": "Run Client and Server",
+			"type": "shell",
+			"command": "npm start",
+			"group": "build"
+		},
+		{
+			"label": "Run Client and Server",
+			"type": "shell",
+			"command": "npm start",
+			"group": "build"
+		}
+	]
+}

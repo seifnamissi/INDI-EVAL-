@@ -1,0 +1,15 @@
+{
+  "name": "soft-skills-evaluator",
+  "version": "1.0.0",
+  "description": "A web application for evaluating candidates' soft skills.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx --yes concurrently \"npm start --prefix server\" \"npm start --prefix client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

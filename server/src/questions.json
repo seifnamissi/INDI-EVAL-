@@ -1,0 +1,168 @@
+{
+  "SECTION 1 - MOODBOARD": [
+    {
+      "name": "🎨 Créativité :",
+      "descriptions": [
+        "Moodboard très basique, sans recherche d’originalité",
+        "Quelques éléments originaux mais ensemble peu créatif",
+        "Moodboard créatif et personnel",
+        "Moodboard très original, avec des choix créatifs marqués"
+      ],
+      "max": 4
+    },
+    {
+      "name": "💪 Efforts fournis :",
+      "descriptions": [
+        "Préparation très limitée / peu de soin",
+        "Travail réalisé mais investissement limité",
+        "Travail soigné et investissement visible",
+        "Travail très soigné, recherche et investissement particulièrement visible"
+      ],
+      "min": 0,
+      "max": 4
+    },
+    {
+      "name": "🌍 Culture G & richesse du vécu",
+      "min": 1,
+      "max": 4,
+      "descriptions": [
+        "Peu d’ouverture ou de diversité dans les éléments présentés",
+        "Quelques références, expériences ou centres d’intérêt, mais ensemble limité",
+        "Bonne diversité de références, expériences et centres d’intérêt",
+        "Culture et vécu riches et variés, avec des références pertinentes et diversifiées"
+      ]
+    },
+    {
+      "name": "🧍 Communication non verbale / Posture :",
+      "min": 1,
+      "max": 4,
+      "descriptions": [
+        "Posture fermée ou inadaptée, peu de regard et présence limitée",
+        "Posture correcte mais manque d’aisance ou de présence",
+        "Posture professionnelle, regard et gestuelle adaptés",
+        "Posture très assurée, présence naturelle et communication non verbale maîtrisée"
+      ]
+    },
+    {
+      "name": "🎤 Qualité de la présentation :",
+      "min": 1,
+      "max": 4,
+      "descriptions": [
+        "Présentation peu préparée, difficile à suivre",
+        "Présentation compréhensible mais peu structurée",
+        "Présentation claire, structurée et fluide",
+        "Présentation très claire, structurée, fluide et maîtrisée"
+      ]
+    }
+  ],
+  "SECTION 2 - RETAIL CHALLENGE:": [
+    {
+      "name": "🔎 Analyse :",
+      "descriptions": [
+        "Comprend difficilement la situation et identifie peu les enjeux",
+        "Comprend globalement la situation mais l’analyse reste partielle",
+        "Comprend la situation, exploite les données et identifie les principaux enjeux",
+        "Analyse approfondie, exploite efficacement les données et identifie clairement les enjeux prioritaires"
+      ],
+      "max": 4
+    },
+    {
+      "name": "💡 Réflexion : ",
+      "descriptions": [
+        "Solutions peu pertinentes ou déconnectées de la situation",
+        "Solutions compréhensibles mais peu adaptées ou peu développées",
+        "Solutions pertinentes, cohérentes et adaptées aux enjeux",
+        "Solutions pertinentes, réfléchies et apportant une réelle valeur ajoutée"
+      ],
+      "max": 4,
+      "min": 0
+    },
+    {
+      "name": "🎯 Orientation résultats : ",
+      "descriptions": [
+        "Ne prend pas en compte les objectifs et ne propose pas de KPI pertinents",
+        "Prend en compte les objectifs mais les KPI restent limités ou peu précis",
+        "Propositions alignées avec les objectifs et KPI pertinents",
+        "Forte orientation résultats, avec des objectifs clairs et des KPI précis permettant de mesurer l’impact"
+      ],
+      "max": 4
+    },
+    {
+      "name": "🤝 Esprit d’équipe :",
+      "descriptions": [
+        "Participe peu ou a des difficultés à collaborer",
+        "Participe mais contribue de manière irrégulière au travail collectif",
+        "Ecoute, partage ses idées et contribue activement au travail collectif",
+        "Favorise les échanges, valorise les idées des autres et contribue fortement à la dynamique collective"
+      ],
+      "max": 4
+    },
+    {
+      "name": "👑 Leadership :",
+      "descriptions": [
+        "Reste en retrait et contribue peu à faire avancer le groupe",
+        "Prend ponctuellement des initiatives mais influence peu la dynamique du groupe",
+        "Prend des initiatives et contribue à faire avancer le groupe vers une décision",
+        "Mobilise naturellement le groupe, donne une direction et facilite la prise de décision"
+      ],
+      "max": 4
+    }
+  ],
+  "SECTION 3 - BUILD YOUR TREND : ": [
+    {
+      "name": "Créativité :",
+      "min": 1,
+      "max": 4,
+      "descriptions": [
+        "Idées très classiques ou peu développées",
+        "Quelques idées originales mais ensemble peu créatif",
+        "Idées créatives et cohérentes pour construire la tendance",
+        "Idées très originales, créatives et apportant une réelle valeur ajoutée"
+      ]
+    },
+    {
+      "name": "Culture fashion :",
+      "min": 1,
+      "max": 4,
+      "descriptions": [
+        "Maîtrise limitée des codes et références mode",
+        "Identifie quelques codes ou références mais les exploite peu",
+        "Bonne maîtrise des codes et références mode, utilisés de manière pertinente",
+        "Excellente maîtrise des codes et références mode, avec des choix précis et pertinents"
+      ]
+    },
+    {
+      "name": "Esprit d’équipe :",
+      "min": 1,
+      "max": 4,
+      "descriptions": [
+        "Participe peu ou reste en retrait dans le travail collectif",
+        "Participe de manière ponctuelle mais contribue peu aux décisions",
+        "Participe activement et contribue à la construction collective",
+        "Favorise les échanges, valorise les idées des autres et contribue fortement à la dynamique du groupe"
+      ]
+    },
+    {
+      "name": "Leadership",
+      "min": 1,
+      "max": 4,
+      "descriptions": [
+        "Reste en retrait et prend peu d’initiatives",
+        "Prend ponctuellement des initiatives mais influence peu la dynamique du groupe",
+        "Prend des initiatives et contribue à faire avancer le groupe",
+        "Mobilise naturellement le groupe, donne une direction et facilite la prise de décision"
+      ]
+    },
+    {
+      "name": "Qualité de la présentation :",
+      "min": 1,
+      "max": 4,
+      "descriptions": [
+        "Présentation difficile à suivre et peu structurée",
+        "Présentation compréhensible mais manque de structure ou d’impact",
+        "Présentation claire, structurée et convaincante",
+        "Présentation très claire, fluide, structurée et particulièrement convaincant"
+      ]
+    }
+  ]
+}
